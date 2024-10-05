@@ -1,0 +1,65 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Color de fondo suave */
+    color: #333; /* Color de texto */
+    margin: 0;
+    padding: 0;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 800px; /* Ancho máximo */
+    margin: 20px auto; /* Centrando en la página */
+    padding: 20px; /* Espaciado interno */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Títulos */
+h1, h2 {
+    color: #007bff; /* Color azul para los títulos */
+}
+
+/* Secciones */
+.section-title {
+    margin-top: 20px; /* Margen superior */
+    border-bottom: 2px solid #007bff; /* Línea inferior azul */
+    padding-bottom: 10px; /* Espaciado inferior */
+}
+
+/* Listas */
+ul {
+    list-style-type: square; /* Estilo de lista cuadrado */
+    padding-left: 20px; /* Espaciado a la izquierda */
+}
+
+li {
+    margin: 10px 0; /* Margen vertical entre elementos de la lista */
+}
+
+/* Enlaces */
+a {
+    color: #007bff; /* Color azul para los enlaces */
+    text-decoration: none; /* Sin subrayado */
+}
+
+a:hover {
+    text-decoration: underline; /* Subrayado al pasar el ratón */
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px; /* Espaciado interno menor en pantallas pequeñas */
+    }
+
+    h1 {
+        font-size: 1.5em; /* Tamaño de fuente menor en pantallas pequeñas */
+    }
+
+    h2 {
+        font-size: 1.2em; /* Tamaño de fuente menor en pantallas pequeñas */
+    }
+}
